@@ -1,5 +1,6 @@
+# Задача №1. Вывести имя файла без расширения
+
 from os.path import basename, splitext
-import secrets
 
 
 def get_file_name(path):
